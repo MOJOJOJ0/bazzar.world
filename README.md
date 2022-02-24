@@ -1,2 +1,2 @@
 # bazzar.world
-ng
+angular frontend

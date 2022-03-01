@@ -6,7 +6,7 @@ import { Product } from 'src/app/common/product';
   selector: 'app-product-list',
   templateUrl: './product-list-table.component.html',
   //templateUrl: './product-list.component.html',
-  styleUrls: ['./product-list.component.sass']
+  styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent implements OnInit {
 

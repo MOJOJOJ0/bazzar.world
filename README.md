@@ -44,3 +44,10 @@ Request Type | URL | Request Body | Description
 ------------ | --- |--------------|-----------------
 GET | /api/products | product name, product price | shows the inventory
 GET | /api/category{id} | product details| shows detailed product preview
+
+## Wireframes
+
+<img width="726" alt="Screen Shot 2022-03-02 at 1 08 54 PM" src="https://user-images.githubusercontent.com/15316862/156431692-c401c22d-d6e8-456f-be2c-b6cb5c169fa4.png">
+<img width="625" alt="Screen Shot 2022-03-02 at 1 09 59 PM" src="https://user-images.githubusercontent.com/15316862/156431742-81c5bcfe-9676-4b14-9eee-4c0eb93afde9.png">
+<img width="606" alt="Screen Shot 2022-03-02 at 1 10 18 PM" src="https://user-images.githubusercontent.com/15316862/156431775-1df0cb0a-daab-4aa3-a2a7-63417e040d81.png">
+

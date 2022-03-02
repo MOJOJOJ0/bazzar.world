@@ -23,10 +23,10 @@
 				<nav class="navbar-sidebar">
 					<ul class="list-unstyled navbar-list">
 						<li>
-							<a href="#">Books</a>
+							<a routerLink="/category/1" routerLinkActive="active-link">Books</a>
 						</li>
 						<li>
-							<a href="#">Stickers</a>
+							<a routerLink="/category/2" routerLinkActive="active-link">Podcast Merch</a>
 						</li>
 						<li>
 							<a href="#">NFT</a>
@@ -69,7 +69,9 @@
     <!-- END HEADER DESKTOP-->
 
     <!-- MAIN CONTENT-->
-    <app-product-list></app-product-list>
+
+	<router-outlet></router-outlet>
+    <!-- <app-product-list></app-product-list> -->
   
   </div>
 

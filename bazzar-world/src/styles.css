@@ -107,12 +107,12 @@ a,a:hover{
 
 .page-wrapper{
     overflow:hidden;
-    background:#e5e5e5;
+    background:#c284bd;
     padding-bottom:8vh
 }
 
 .page-container{
-    background:#e5e5e5;
+    background:#c281db;
     padding-left:200px
 }
 
@@ -125,7 +125,7 @@ aside.menu-sidebar.d-none.d-lg-block.clr{
     background:0 0;
     z-index:99999999;
     height:75px;
-    box-shadow:-2px 0 4px #0000003b
+    box-shadow:-2px 0 4px #d1e6163b
 }
 
 /* 
@@ -135,10 +135,10 @@ aside.menu-sidebar.d-none.d-lg-block.clr{
  */
 
 .header-desktop{
-    background:#0da8e4;
-    -webkit-box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
-    -moz-box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
-    box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
+    background:rgb(247, 209, 39);
+    -webkit-box-shadow:0 2px 5px 0 rgb(247, 209, 39);
+    -moz-box-shadow:0 2px 5px 0 rgb(247, 209, 39);
+    box-shadow:0 2px 5px 0 rgb(247, 209, 39);
     position:fixed;
     top:0;
     right:0;
@@ -225,7 +225,8 @@ input.au-input.au-input-xl{
 
 .au-input{
     line-height:43px;
-    border:1px solid #e5e5e5;
+    border:1px solid #eb8181;
+    background-color: thistle;
     font-size:14px;
     color:#666;
     padding:0 17px;
@@ -246,16 +247,16 @@ input.au-input.au-input-xl{
     font-size:22px;
     float:left;
     margin-top:16px;
-    color:#fff;
+    color:rgb(69, 67, 216);
     margin-left:15px
 }
 
 .total{
-    background:#205b8d;
+    background:#011801;
     line-height:43px;
     color:#fff;
     border-radius:30px;
-    border:1px solid #0da8e4;
+    border:1px solid #e40d43;
     float:left;
     margin-top:7px;
     padding-left:17px
@@ -265,7 +266,7 @@ input.au-input.au-input-xl{
     display:inline-block;
     background:#fff;
     padding:0 13px;
-    color:#000;
+    color:rgb(194, 93, 93);
     border-top-right-radius:20px;
     border-bottom-right-radius:20px;
     margin-left:11px
@@ -283,21 +284,21 @@ input.au-input.au-input-xl{
     position:relative;
     right:0;
     min-width:95px;
-    color:#fff;
-    border:1px solid #205b8d;
+    color:rgb(233, 229, 229);
+    border:1px solid #3495f0;
     -webkit-border-radius:3px;
     -moz-border-radius:3px;
     border-radius:43px;
-    background:#205b8d
+    background:#ce6dc9
 }
 
 .au-btn-submit:hover{
-    background:#05143f
+    background:#98d429
 }
 
 .au-btn-submit>i{
     font-size:20px;
-    color:#fff;
+    color:rgb(224, 133, 133);
     position:absolute;
     top:50%;
     left:50%;
@@ -320,14 +321,15 @@ input.au-input.au-input-xl{
     left:0;
     top:0;
     bottom:0;
-    background:#fff;
+    background:rgb(247, 209, 39);
     overflow-y:auto
 }
 
 .menu-sidebar .logo{
-    background:#fff;
+    background:rgb(247, 209, 39);
     height:75px;
-    padding:0 35px;
+    padding:0 15px;
+    margin-top: 20px;
     display:-webkit-box;
     display:-webkit-flex;
     display:-moz-box;
@@ -338,10 +340,10 @@ input.au-input.au-input-xl{
     -moz-box-align:center;
     -ms-flex-align:center;
     align-items:center;
-    -webkit-box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
-    -moz-box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
-    box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
-    border-right:1px solid #e5e5e5;
+    -webkit-box-shadow:0 2px 5px 0 rgb(247, 209, 39);
+    -moz-box-shadow:0 2px 5px 0 rgb(247, 209, 39);
+    box-shadow:0 2px 5px 0 rgb(247, 209, 39);
+    border-right:1px solid rgb(247, 209, 39);
     position:relative;
     z-index:3
 }
@@ -379,7 +381,7 @@ input.au-input.au-input-xl{
 }
 
 .navbar-sidebar .navbar-list li a:hover{
-    color:#0da8e4
+    color:#c3becc
 }
 
 /* 
@@ -395,7 +397,7 @@ input.au-input.au-input-xl{
     right:0
 }
 .header-mobile .header-mobile-bar{
-    padding:15px 0;    background: #fff;
+    padding:15px 0;    background: rgb(233, 230, 230);
 }
 .header-mobile .header-mobile-inner{
     display:-webkit-box;
@@ -496,7 +498,7 @@ input.au-input.au-input-xl{
     padding-left:15px
 }
 .header-mobile-2{
-    background:#393939;
+    background:#c75b5b;
     position:static
 }
 .header-mobile-2.header-mobile .navbar-mobile{
@@ -656,7 +658,7 @@ label.date{
     top:-1px;
     width:9px;
     height:15px;
-    border:solid #0da8e4;
+    border:solid #e40d71;
     border-width:0 4px 4px 0;
     -webkit-border-radius:2px;
     -moz-border-radius:2px;
@@ -691,7 +693,7 @@ table.table.table-bordered{
     border:1px solid #dee2e6
 }
 table.table.table-bordered th{
-    BACKGROUND:#0da8e4;
+    BACKGROUND:#e40d78;
     color:#fff;
     font-size:14px;
     padding:7px
@@ -718,7 +720,7 @@ table.table.table-bordered th{
  .price{
     margin:15px 0 0;
     font-weight:800;
-    color:#0da8e4
+    color:#f3f0e7
 }
 .detail-section{
     margin-top:60px
@@ -737,7 +739,7 @@ table.table.table-bordered th{
     border-color:#0da8e4!important
 }
 a.primary-btn{
-    background:#05143f;
+    background:#03000e;
     padding:7px 20px;
     text-align:center;
     display:inline-block;
@@ -747,7 +749,7 @@ a.primary-btn{
     margin-top:5px
 }
 a.primary-btn:hover{
-    background:#0da8e4;
+    background:#0de42a;
     color:#fff
 }
 
@@ -765,7 +767,7 @@ footer ul li a{
     color:#fff
 }
 footer{
-    background:#232324;
+    background:#7486e9;
     z-index:1;
     position:relative;
     text-align:center
@@ -822,7 +824,7 @@ footer ul li{
         font-size:22px;
         float:left;
         margin-top:16px;
-        color:#205b8d;
+        color:#208d41;
         margin-left:15px
     }
     .header-mobile .header-mobile-bar{
@@ -917,7 +919,7 @@ footer ul li{
         font-size:22px;
         float:left;
         margin-top:16px;
-        color:#205b8d;
+        color:#208d4d;
         margin-left:15px
     }
         .header-wrap2{
@@ -968,7 +970,7 @@ footer ul li{
         font-size:22px;
         float:left;
         margin-top:16px;
-        color:#205b8d;
+        color:#208d4d;
         margin-left:15px
     }
     .footer-pagination{
@@ -987,7 +989,7 @@ footer ul li{
         right:10px;
         min-width:85px;
         color:#fff;
-        border:1px solid #205b8d;
+        border:1px solid #208d4a;
         -webkit-border-radius:3px;
         -moz-border-radius:3px;
         border-radius:0;
@@ -1012,19 +1014,19 @@ footer ul li{
     }
     .total span{
         display:inline-block;
-        background:#fff;
+        background:rgb(50, 224, 166);
         padding:0 10px;
-        color:#000;
+        color:rgb(98, 214, 45);
         border-top-right-radius:20px;
         border-bottom-right-radius:20px;
         margin-left:6px
     }
     .total{
-        background:#205b8d;
+        background:#208d7b;
         line-height:30px;
         color:#fff;
         border-radius:30px;
-        border:1px solid #205b8d;
+        border:1px solid #4eca29;
         float:left;
         margin-top:9px;
         padding-left:12px

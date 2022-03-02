@@ -5,7 +5,7 @@
 
 # bazzar.world marketplace-API
 
-java springboot backend
+ng frontend
 
 ## About
 This repo contains the frontend of a full stack app. The idea is just a simple marketplace.
@@ -18,7 +18,7 @@ This repo contains the frontend of a full stack app. The idea is just a simple m
 
 - [x] ~As a user, I can see unique products and their prices~
 
-- [ ] As a user, I can interact with payment methods (including crypto)
+- [ ] As a user, I can interact with payment methods (including climate-friendly crypto)
 
 - [ ] As a user, I can see the checkout option
 
@@ -34,7 +34,6 @@ This repo contains the frontend of a full stack app. The idea is just a simple m
 - kanban board
 - font awesome
 - bootstrap
-- typescript
 - favicon.cc
 
 
